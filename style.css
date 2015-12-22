@@ -9,3 +9,12 @@ body {background-color: #CCC;}
       #map {
         height: 93%;
       }
+
+      #location{
+      	margin-top: 10px;
+      	margin-left: 20px;
+      }
+
+      input{
+      	height: 25px;
+      }

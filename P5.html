@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <title>Your Moving Companion</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
 
     <form id="form-container" class="form-container">
-        <label for="city"></label>
-        <input type="text" id="city" value="">
-        <button id="submit-btn">Filter</button>
+        <label for="location"></label>
+        <input type="text" id="location" value="Search...">
+        <button id="btn">Filter</button>
     </form>
 
     <hr>
 
     <div id="map"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA526o_LpC5mvsFFSVuCAWNh7jaaKdSItY&signed_in=true&libraries=places&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA526o_LpC5mvsFFSVuCAWNh7jaaKdSItY&signed_in=true&libraries=places&callback=initMap" async defer></script
 
-   
+  <script async defer src="https://maps.googleapis.com/maps/api/js?client=r6jleb7d4hueu6ib00irnnsbfdlr8c2m.apps.googleusercontent.com&v=3.22&callback=initMap"></script>
+
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/app.js"></script>
