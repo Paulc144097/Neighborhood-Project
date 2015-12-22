@@ -6,6 +6,7 @@ body {background-color: #CCC;}
         margin: 0;
         padding: 0;
       }
+
       #map {
         height: 93%;
       }
@@ -15,6 +16,11 @@ body {background-color: #CCC;}
       	margin-left: 20px;
       }
 
+      hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
       input{
-      	height: 25px;
+      	height: 20px;
       }

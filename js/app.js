@@ -6,7 +6,7 @@ function initMap() {
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: pyrmont,
-    zoom: 15
+    zoom: 100
   });
 
   infowindow = new google.maps.InfoWindow();
@@ -17,7 +17,6 @@ function initMap() {
     radius: 500,
     types: ['store']
   }, callback);
-}
 
 function callback(results, status) {
   if (status === google.maps.places.PlacesServiceStatus.OK) {
