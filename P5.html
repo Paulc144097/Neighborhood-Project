@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="form-container" class="form-container">
+        <label for="city"></label><input type="text" id="city" value="">
+        <button id="submit-btn">Filter</button>
+    </form>
+
+    <hr>
+
+    <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA526o_LpC5mvsFFSVuCAWNh7jaaKdSItY&signed_in=true&libraries=places&callback=initMap" async defer></script>
+
+   
+
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
